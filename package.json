@@ -1,0 +1,28 @@
+{
+  "name": "pb_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@svgr/webpack": "^6.3.1",
+    "chart.js": "^3.9.1",
+    "glamor": "^2.20.40",
+    "jotai": "^1.8.4",
+    "next": "12.3.1",
+    "prop-types": "^15.8.1",
+    "react": "18.2.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-dom": "18.2.0",
+    "react-svg": "^15.1.9",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.1"
+  }
+}

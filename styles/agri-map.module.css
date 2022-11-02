@@ -1,0 +1,10 @@
+.agri-map {
+  width: 60%;
+  height: 100%;
+  padding: 2rem;
+  border: 2px solid rgb(231, 231, 177);
+  margin: 0 5rem;
+  background-color: rgb(245, 245, 220);
+  border-radius: 2rem;
+  position: relative;
+}

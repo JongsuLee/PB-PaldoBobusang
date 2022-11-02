@@ -1,0 +1,57 @@
+.agri:hover {
+    transform: scale(1.05);
+}
+
+.agri-frame {
+  position: relative;
+  margin-bottom: 7vh;
+}
+
+.picture-frame {
+    width: 150px;
+    height: 150px;
+    margin-top: 5px;
+    /* background-color: rgb(255, 255, 255); */
+    border-radius: 25% 25% 0 0;
+}
+
+.picture {
+    width: inherit;
+    height: inherit;
+    object-fit: contain;
+    object-position: center;
+    cursor: pointer;
+}
+
+.title {
+  width: 200px;
+  height: 50px;
+  left: -25px;
+  top: 150px;
+  z-index: 2;
+  position: absolute;
+  font-family: 'Jua', sans-serif;
+  font-size: 1.5rem;
+  border-radius: 0.5rem 0.5rem 2rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(221, 76, 40);
+  background-color: rgb(236, 111, 80);
+}
+
+.pot {
+  width: 100px;
+  height: 13px;
+  position: absolute;
+  left: 30px;
+  top: 195px;
+  z-index: 1;
+  border-radius: 0 0 1rem 1rem;
+  border: 2px solid rgb(221, 76, 40);
+  background-color: rgb(236, 111, 80);
+}
+
+.title-ko {
+    font-size: 1.2rem;
+}
