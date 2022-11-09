@@ -1,0 +1,171 @@
+.detail-body {
+  padding: 2.5rem;
+  font-size: 1.5rem;
+}
+
+.detail-table {
+  width: calc(inherit - 6rem);
+  height: calc(40vh - 6rem);
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  font-family: 'Jua', sans-serif;
+}
+
+.table-item1 {
+  grid-column: 1 / 4;
+  grid-row: 1 / 4;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-item2 {
+  grid-column: 4 / 6;
+  grid-row: 1 / 2;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2rem 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.table-item3 {
+  grid-column: 4 / 6;
+  grid-row: 2 / 3;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.table-item4 {
+  grid-column: 4 / 6;
+  grid-row: 3 / 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 0 2rem;
+  font-weight: bold;
+}
+
+.table-item5 {
+  grid-column: 6 / 8;
+  grid-row: 1 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}
+
+.table-item6 {
+  grid-column: 6 / 8;
+  grid-row: 2 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}
+
+.table-item7 {
+  grid-column: 6 / 8;
+  grid-row: 3 / 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}
+
+.table-item8 {
+  grid-column: 8 / 10;
+  grid-row: 1 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0 2rem 0 0;
+  font-weight: bold;
+}
+
+.table-item9 {
+  grid-column: 8 / 10;
+  grid-row: 2 / 4;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 2rem 0;
+  font-size: 1.2rem;
+}
+
+.detail-inside-table {
+  margin: auto;
+}
+
+.detail-inside-table th, .detail-inside-table td{
+  border: 1px solid black;
+}
+
+.detail-image {
+  width: 200px;
+  height: 200px;
+}
+
+.agri-loc-table {
+  border: solid 2px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.agri-loc-table tr {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.th-left {
+  border-radius: 1rem 0 0 0;
+}
+
+.th-right {
+  border-radius: 0 1rem 0 0;
+}
+
+.agri-loc-table th, .agri-loc-table td {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  font-family: 'Jua', sans-serif;
+}
+
+.local-name {
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.city-name {
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 0.5rem;
+}
+
+.agri-loc-frame {
+  padding: 2rem;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.agri-loc-frame::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+.agri-loc-frame::-webkit-scrollbar-thumb {
+  height: 5%;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
