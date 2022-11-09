@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import styles from '../../styles/agriList.module.css';
 import { Line } from 'react-chartjs-2';
 import constant from '../../public/constant.json'
+import Chart from 'chart.js/auto';
 
 const AgriChart = (props) => {
 
