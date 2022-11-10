@@ -11,7 +11,10 @@ const Specific = (props) => {
     ' svg': {
       width: '90%',
       height: '90%',
-      margin: '20vh 0 0 3vw'
+      position: 'absolute',
+      top: '10%',
+      left: '5%',
+      'z-index': '1'
     }
   })
 

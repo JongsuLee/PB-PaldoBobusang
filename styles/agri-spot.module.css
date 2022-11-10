@@ -1,19 +1,22 @@
 .position{
   position: absolute;
+  z-index: 2;
   top: 7vh;
   left: 4.5vw;
 }
 
 .position-capital {
   position: absolute;
+  z-index: 2;
   top: 7vh;
   left: 3.2vw;
 }
 
 .position-jeonbuk {
   position: absolute;
-  top: 10vh;
-  left: 2vw;
+  z-index: 2;
+  top: 10%;
+  left: 5%;
 } 
 
 .image {

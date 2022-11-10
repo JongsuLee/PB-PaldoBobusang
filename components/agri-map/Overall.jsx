@@ -10,7 +10,6 @@ const Overall = props => {
   const clickHandler = event => {
     const location = event.target.classList[0];
     props.clickHandler(location);
-    document.getElementsByTagName('svg')[0].style='position: absolute; z-index: initial;'
   }
 
   const mouseOverHandler = event => {
@@ -39,12 +38,14 @@ const Overall = props => {
                             className={`Overall-${size}`} 
                             width='100%' height='100%'
                             onMouseOver={mouseOverHandler}
-                            onMouseOut={mouseOutHandler}/> :
+                            onMouseOut={mouseOutHandler}
+                            style={{'position': 'inherit'}}/> :
                        <Map onClick={clickHandler} 
                             className={`Overall-${size}`} 
                             width='15%' height='15%' 
                             onMouseOver={mouseOverHandler} 
-                            onMouseOut={mouseOutHandler}/>
+                            onMouseOut={mouseOutHandler}
+                            style={{'position': 'absolute', 'z-index': '3'}}/>
   )
 }
 
