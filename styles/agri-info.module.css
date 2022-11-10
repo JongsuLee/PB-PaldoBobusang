@@ -45,7 +45,6 @@
   padding: 3rem 2.5rem 0 2.5rem;
   border-radius: 1rem;
   background-color: rgba(222, 229, 232, 0.7);
-  overflow: scroll;
 }
 
 .products-true {
@@ -55,7 +54,17 @@
   padding: 3rem 2.5rem 0 2.5rem;
   border-radius: 1rem;
   background-color: rgba(255, 234, 167, 0.5);
-  overflow: scroll;
+  overflow-y: scroll;
+}
+
+.products-true::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+.products-true::-webkit-scrollbar-thumb {
+  height: 5%;
+  background: rgba(255, 234, 167, 0.7);
+  border-radius: 10px;
 }
 
 .item {
