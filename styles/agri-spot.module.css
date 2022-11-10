@@ -1,22 +1,45 @@
 .position{
   position: absolute;
   z-index: 2;
-  top: 7vh;
-  left: 4.5vw;
+  top: 5%;
+  left: 5%;
 }
 
 .position-capital {
   position: absolute;
   z-index: 2;
-  top: 7vh;
-  left: 3.2vw;
+  top: 5%;
+  left: 7%;
+}
+
+.position-gyeongbuk {
+  position: absolute;
+  z-index: 2;
+  left: 8%;
+  margin: 0;
+  top: -4%;
+}
+
+.position-gyeongnam {
+  position: absolute;
+  z-index: 2;
+  left: 8%;
+  margin: 0;
+  top: -4%;
 }
 
 .position-jeonbuk {
   position: absolute;
   z-index: 2;
-  top: 10%;
+  top: 3%;
   left: 5%;
+} 
+
+.position-jeonnam {
+  position: absolute;
+  z-index: 2;
+  top: -3%;
+  left: 11%;
 } 
 
 .image {
